@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramanathan Sathappan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>RS Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="dropdown">
+                    <a href="#projects" class="nav-link dropdown-toggle">
+                        Projects <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="project-link" data-project="project1">Project 1</a></li>
+                        <li><a href="#" class="project-link" data-project="project2">Project 2</a></li>
+                        <li><a href="#" class="project-link" data-project="project3">Project 3</a></li>
+                        <li><a href="#" class="project-link" data-project="project4">Project 4</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#skills" class="nav-link dropdown-toggle">
+                        Skills <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#skills">Technical Skills</a></li>
+                        <li><a href="#skills">Soft Skills</a></li>
+                        <li><a href="#skills">Certifications</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link download-resume" id="downloadResume">Download Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section with Wallpaper -->
+    <section id="home" class="home-section">
+        <div class="background-slideshow">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        </div>
+        <div class="home-overlay"></div>
+        <div class="home-content">
+            <h1 class="home-title">Ramanathan Sathappan</h1>
+            <p class="home-subtitle">Business Systems Analyst | Scrum Master | Agile Project Manager</p>
+            <p class="home-description">Transforming business requirements into innovative solutions</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="./images/profile.jpg" alt="Ramanathan Sathappan - Profile Photo" id="profileImg" style="display: block; object-fit: cover;">
+                </div>
+                <div class="profile-info">
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Results-driven Business Systems Analyst, Certified Scrum Master (CSM), and Agile Project Manager with 11+ years of experience across banking, finance, HR, and healthcare domains. Demonstrated expertise in eliciting and analyzing functional requirements, driving stakeholder alignment, and leading Agile/Scrum ceremonies to ensure high-quality delivery. Strong background in end-to-end QA—including UI/web testing, API validation, and SQL-based data analysis—enabling seamless integration across complex systems. Skilled in translating business needs into clear user stories, acceptance criteria, process flows, and data mappings. Known for effective cross-functional collaboration, proactive risk management, and consistent delivery excellence across large-scale Agile initiatives.
+                    </p>
+                    <div class="profile-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>11+ Years Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>50+ Projects Delivered</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">Apr 2021 – Mar 2025</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Senior Service Manager</h3>
+                        <h4>Wipro Limited</h4>
+                        <ul>
+                            <li>Conducted requirements sessions with SMEs to capture clear, actionable business and system requirements</li>
+                            <li>Authored functional requirements, user stories, acceptance criteria, and streamlined process flow diagrams</li>
+                            <li>Validated API JSON requests/responses with developers and architects using Postman</li>
+                            <li>Performed SQL-driven data validation to support both business analysis and QA testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">Sep 2018 – Mar 2021</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Lead Analyst</h3>
+                        <h4>Wipro Limited</h4>
+                        <ul>
+                            <li>Created data mapping documents, system interaction diagrams, and API requirement specifications</li>
+                            <li>Supported QA by validating test cases against requirements and performed DB testing using SQL</li>
+                            <li>Improved requirement traceability by standardizing documentation templates and checklists</li>
+                            <li>Led UAT planning & execution, ensuring test coverage and business approval</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">Apr 2016 – Aug 2018</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>System Analyst</h3>
+                        <h4>Aon</h4>
+                        <ul>
+                            <li>Prepared test plans, scenarios, and execution strategies for web-based enterprise applications</li>
+                            <li>Performed UI, functional, regression, and database testing to ensure alignment with requirements</li>
+                            <li>Facilitated defect triage meetings and communicated risks to delivery managers</li>
+                            <li>Collaborated with business users to validate workflows and achieve 99.5% accuracy rate in UAT</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">Aug 2013 – Mar 2016</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Analyst</h3>
+                        <h4>Aon</h4>
+                        <ul>
+                            <li>Executed manual test cases for financial applications, ensuring compliance with functional requirements</li>
+                            <li>Managed defect tracking, retesting, and closure in alignment with delivery timelines</li>
+                            <li>Reported test progress and risks to project managers and stakeholders</li>
+                            <li>Received multiple awards for quality assurance excellence and collaborative delivery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <div class="project-selector">
+                    <label for="projectSelect">Select a Project:</label>
+                    <select id="projectSelect" class="project-select">
+                        <option value="project2" selected>Agile Transformation Initiative</option>
+                        <option value="project1">Enterprise System Integration</option>
+                        <option value="project3">Cloud Migration Project</option>
+                        <option value="project4">Digital Transformation Program</option>
+                    </select>
+                </div>
+                <div id="projectDetails" class="project-details">
+                    <p class="project-placeholder">Select a project from the dropdown to view details</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Business Analysis</div>
+                        <div class="skill-item">Agile/Scrum</div>
+                        <div class="skill-item">Project Management</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">JIRA</div>
+                        <div class="skill-item">Confluence</div>
+                        <div class="skill-item">Requirements Gathering</div>
+                        <div class="skill-item">Process Improvement</div>
+                        <div class="skill-item">Stakeholder Management</div>
+                        <div class="skill-item">Data Analysis</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Leadership</div>
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Problem Solving</div>
+                        <div class="skill-item">Team Collaboration</div>
+                        <div class="skill-item">Time Management</div>
+                        <div class="skill-item">Critical Thinking</div>
+                        <div class="skill-item">Stakeholder Negotiation</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Certified ScrumMaster® (CSM), Scrum Alliance</div>
+                        <div class="skill-item">Certification Program in Business Analytics with Gen & Agentic AI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:ramsato@gmail.com">ramsato@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+16475376693">+1 (647) 537-6693</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Canada</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/ramanathan-sathappan-1304b357/" target="_blank">Ramanathan Sathappan</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ramanathan Sathappan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
